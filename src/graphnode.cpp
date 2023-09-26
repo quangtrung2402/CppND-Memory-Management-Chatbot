@@ -10,8 +10,8 @@ GraphNode::~GraphNode()
 {
     //// STUDENT CODE
     ////
-
-    delete _chatBot; 
+    // GraphNode is not own _chatBot, it must not delete _chatBot
+    // delete _chatBot; 
 
     ////
     //// EOF STUDENT CODE
